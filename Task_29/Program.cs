@@ -5,14 +5,10 @@
 ввод элеменетов через консоль (через запятую. использовать метод string.Split())
 */
 
+
 Console.Write("Введите число : ");
-string[] mas = Console.ReadLine().Split(',');
-int number = int.Parse(mas[8]);
-string mistake = mas[1].Trim();
+string mas = Console.ReadLine();
+string [] mass = new string [8]; mas.Split(",");
+for(int i=0;i<mass.Length;i++);
 
- 
-       
- 
- 
-
-  
+ Console.WriteLine("[{mas}]"+ mas);
