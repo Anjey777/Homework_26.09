@@ -4,3 +4,15 @@
 6, 1, 33 -> [6, 1, 33]
 ввод элеменетов через консоль (через запятую. использовать метод string.Split())
 */
+
+Console.Write("Введите число : ");
+string[] mas = Console.ReadLine().Split(',');
+int number = int.Parse(mas[8]);
+string mistake = mas[1].Trim();
+
+ 
+       
+ 
+ 
+
+  
