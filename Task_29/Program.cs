@@ -6,9 +6,10 @@
 */
 
 
-Console.Write("Введите число : ");
-string mas = Console.ReadLine();
-string [] mass = new string [8]; mas.Split(",");
-for(int i=0;i<mass.Length;i++);
-
- Console.WriteLine("[{mas}]"+ mas);
+Console.Write("Введите массив через запятую: ");
+string arrayMas = Console.ReadLine();
+{
+    string[] mass = new string[8];
+    for (int i = 0; i < mass.Length; i++) ; arrayMas.Split(",");
+}
+Console.WriteLine("[{0}]", string.Join(", ", arrayMas));
